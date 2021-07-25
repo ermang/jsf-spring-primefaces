@@ -1,15 +1,11 @@
 package com.eg.jsf.spring.primefaces;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.RequestScoped;
 
 
 @ManagedBean
-
 @RequestScoped
 public class Message {
     private String message = "Hello World!";
